@@ -10,7 +10,7 @@
 <div>
     <img align="right" src="https://raw.githubusercontent.com/block-foundation/brand/master/src/logo/logo_gray.png" width="96" alt="Block Foundation Logo">
     <h1 align="left">Parity Substrate devContainer</h1>
-    <h3 align="left">Block Foundation Docker Images</h3>
+    <h3 align="left">Block Foundation Docker Containers</h3>
 </div>
 
 ---

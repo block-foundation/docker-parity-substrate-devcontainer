@@ -7,9 +7,17 @@
 FROM rust:latest
 
 # Install dependencies for Substrate
-RUN apt-get update && \
+RUN \
+    apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y cmake pkg-config libssl-dev git clang curl
+    apt-get install -y \
+        bash \
+        cmake \
+        pkg-config \
+        libssl-dev \
+        git \
+        clang \
+        curl
 
 # Install wasm toolchain
 RUN curl https://getsubstrate.io -sSf | bash -s -- --fast

@@ -44,6 +44,12 @@
 
 ...
 
+## Resources
+
+- https://github.com/mastodon/mastodon/tree/main
+- https://docs.linuxserver.io/images/docker-mastodon
+- https://hub.docker.com/r/linuxserver/mastodon
+
 ---
 
 ## Colophon
